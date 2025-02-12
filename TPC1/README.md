@@ -16,5 +16,10 @@ Para resolver este problema desenvolvi um ciclo _while_ que faz _parsing_ à str
 - Se o caracter for 1 dígito continua a ler os dígitos até acabarem e soma o valor resultanto ao acumulador depois de o converter em um inteiro. Esta verificação só acontece se um booleano "active" tiver o valor de _True_.
 - Se o caracter for a letra "o" o programa verifica se a palavra é "on" ou "off" de uma maneira case insensitive. Além disse verifica se a palavra está isolada assim ignorando casos que "on" ou "off" façam partes de outras palavras (exemplo: "only" ou "offset"). Se for detetado "ON" active é tornado _True_, se for detetado "OFF", active torna-se _False_.
 - Se o caracter "=" for detetado é imprimido o valor resultante no terminal.
+Utilizando a seguinte string de Input.
+![Input String](InputString.png)
+Obtive o seguinte output:
+![Output](Output.png)
+Pode-se verificar que o programa fez a soma 1+2 = 3 +3+4 = 20 +100 = 120 +2 = 122; ou seja o programa ignorou valores de números que estavam depois do OFF e antes de um ON, além disso ignorou o "off" na palavra "offset".
 
 
