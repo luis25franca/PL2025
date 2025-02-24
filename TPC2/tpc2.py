@@ -3,6 +3,7 @@ import os
 
 padrao = re.compile(r'([^;]+);("(?:[^"]*(?:"[^"]*)*)"|[^;]+);([^;]+);([^;]+);([^;]+);([^;]*)\n?')
 
+
 compositores = set()
 quantidade_por_periodo = {}
 obras_por_periodo = {}

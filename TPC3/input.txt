@@ -1,0 +1,13 @@
+# Exemplo (header)
+
+Este e um **exemplo**(bold)
+
+Este e um *exemplo* (italic)
+
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
+
+Como pode ser consultado em [pagina da UC](http://www.uc.pt) (hyperlink)
+
+Como se ve na imagem seguinte: ![imagem dum coelho](http://www.coellho.com) (image)
