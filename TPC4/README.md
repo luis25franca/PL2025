@@ -14,15 +14,15 @@ Enunciado do Problema:
 Para resolver este problema é requerido usar a biblioteca ``ply.lex`` capaz de contruir um analisador léxico usando _tokens_ definidos pelo utilizador.
 
 No programa [tpc4.py](tpc4.py) podemos encontrar em primeiro lugar a definição dos tokens que escolhi definir como os seguintes:
-    ```
-    "LEFT_P",
-    "RIGHT_P",
-    "VARIABLE",
-    "VALUE",
-    "URI",
-    "PUNCTUATION",
-    "KEYWORD"
-    ``` 
+```
+"LEFT_P",
+"RIGHT_P",
+"VARIABLE",
+"VALUE",
+"URI",
+"PUNCTUATION",
+"KEYWORD"
+``` 
 
 Para cada um destes tokens é necessário definir uma expressão regular para os processar.
 - No caso de `LEFT_P`, `RIGHT_P` e `PUNCTUATION` a expressão deteta apenas o caractér a que o token se refere('{','}' e '.' respetivamente).

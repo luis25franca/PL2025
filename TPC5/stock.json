@@ -1,0 +1,32 @@
+[
+    {
+        "cod": "A23",
+        "nome": "\u00c1gua 0.5L",
+        "quant": 8,
+        "preco": 0.7
+    },
+    {
+        "cod": "B12",
+        "nome": "Coca-Cola",
+        "quant": 5,
+        "preco": 1.2
+    },
+    {
+        "cod": "C34",
+        "nome": "KitKat",
+        "quant": 9,
+        "preco": 1
+    },
+    {
+        "cod": "D45",
+        "nome": "Doritos",
+        "quant": 6,
+        "preco": 1.5
+    },
+    {
+        "cod": "E56",
+        "nome": "Caf\u00e9 Expresso",
+        "quant": 15,
+        "preco": 0.6
+    }
+]
