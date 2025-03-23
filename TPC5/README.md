@@ -15,6 +15,7 @@ Enunciado do Problema:
 Para resolver este problema defini uma classe em python `VendingMachine` que guarda toda a informação do estado da máquina além das operações sobre ela.
 
 <code>
+
     class VendingMachine:
     def __init__(self, stock_file="stock.json"):
         self.stock_file = stock_file
@@ -28,6 +29,7 @@ Para resolver este problema defini uma classe em python `VendingMachine` que gua
 Ao ser inicializada define as suas variáveis carrega para memória o ficheiro [stock.json](stock.json) e configura o lexer. O analisador léxico ajuda o programa a interpretar os comandos fornecidos pelo utilizador. 
 
 <code> 
+
     def configurar_lexer(self):
         tokens = ('LISTAR', 'MOEDA', 'SELECIONAR', 'CODIGO', 'SAIR', 'VALOR')
         t_LISTAR = r'LISTAR'
