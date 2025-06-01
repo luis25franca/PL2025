@@ -6,7 +6,7 @@ Neste repositório serão aramazenados todos os trabalhos práticos realizados n
 
 ## Identificação
 
-- **Nome:** Luís Carlos Santos FRança
+- **Nome:** Luís Carlos Santos França
 - **Nº de Aluno:** A104259
 - **Foto:**\
 ![Fotografia do aluno](foto.jpg)
